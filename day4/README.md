@@ -1,16 +1,15 @@
-# day2
+# Day4
 
-A new Flutter application.
+Conitnued - Layouts in Flutter
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Learnings
 
-A few resources to get you started if this is your first Flutter project:
+* Align widget 
+* Setting height/width for Image
+* Hard time to learn buttons (Lots of deprecated  buttons)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Note: After much time figured out SVG is not yet supported. :open_mouth::open_mouth: 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Screenhot 
+![Screenshot](https://github.com/SachinKasaraddi/100daysofFlutter/blob/main/day4/assets/simulator_screenshot_67AFDF90-962A-4B55-9E48-28280DD80958.png)
