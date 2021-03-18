@@ -8,8 +8,8 @@ Since learning layouts also need exercise to begin with, hence started checking 
 Yeah trying to achieve #AndroidDevChallenge via Flutter
 
  #Dev Challenge 1 : Puppy Adopt app.
-# 100daysCodeChallenge
-# 100daysFlutter
+ #100daysCodeChallenge
+ #100daysFlutter
 
 Trying to achieve this design
 
@@ -23,4 +23,4 @@ Learnings
 * Curved corner radius used for cards.
 
 Screenhot
-![Screenshot](https://github.com/SachinKasaraddi/100daysofFlutter/blob/main/100daysofFlutter/assets/Day-5-screenshot.png)
+![](https://github.com/SachinKasaraddi/100daysofFlutter/blob/main/100daysofFlutter/assets/Day-5-screenshot.png)
