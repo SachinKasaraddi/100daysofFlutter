@@ -23,4 +23,4 @@ Learnings
 * Curved corner radius used for cards.
 
 Screenhot
-![Screenshot](https://github.com/SachinKasaraddi/100daysofFlutter/blob/main/day4/assets/Day-5-screenshot.png)
+![Screenshot](https://github.com/SachinKasaraddi/100daysofFlutter/blob/main/100daysofFlutter/assets/Day-5-screenshot.png)
