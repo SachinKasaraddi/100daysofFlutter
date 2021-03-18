@@ -9,7 +9,7 @@ Yeah trying to achieve #AndroidDevChallenge via Flutter
 
  #Dev Challenge 1 : Puppy Adopt app.
 # 100daysCodeChallenge
-# 100daysFalutter
+# 100daysFlutter
 
 Trying to achieve this design
 
