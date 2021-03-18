@@ -1,9 +1,10 @@
 import 'dart:ui';
 
+import 'package:day2/Dashboard.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(Dashboard());
 }
 
 class MyApp extends StatelessWidget {
