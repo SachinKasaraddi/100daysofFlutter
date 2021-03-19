@@ -55,5 +55,5 @@ Learnings
 * Adding custom fonts
 * More time invested on aligning as per design in app.
 
-
+![](https://github.com/SachinKasaraddi/100daysofFlutter/blob/main/100daysofFlutter/assets/screenshot_day_6.jpg)
 
