@@ -57,3 +57,26 @@ Learnings
 
 ![](https://github.com/SachinKasaraddi/100daysofFlutter/blob/main/100daysofFlutter/assets/screenshot_day_6.jpg)
 
+# Day 7: Sick 🤒 Not well day 
+
+
+
+# Day8
+
+# Learnings 
+* [Navigation cookbook](https://flutter.dev/docs/cookbook#navigation)
+
+* Achieved navigation from dashboard to details page.
+
+* Got rid of hardcoded static data to Model and static function :+1 
+
+Note: Make sure if there is already cookbook for things like navigation,animation take use it.
+      Its easy to understand and learn faster.
+
+
+
+
+
+
+
+
