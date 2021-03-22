@@ -75,7 +75,15 @@ Note: Make sure if there is already cookbook for things like navigation,animatio
 
 
 
+# Day 9
 
+# Learnings
+
+* ALigned button row to always be at the end of the screen.
+
+* Played arouynd App bar to achieve parallax
+
+* Image stretch.
 
 
 
