@@ -26,18 +26,39 @@ class PuppyDetails extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       home: Scaffold(
-        extendBodyBehindAppBar: true,
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0,
+          toolbarHeight: 10,
         ),
         body: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Image.asset(puppy.imagePath),
+            Image.asset(
+              puppy.imagePath,
+              height: 250,
+              fit: BoxFit.fitWidth,
+            ),
             puppyAttributes,
             puppyNameAndBreed(puppy.name, puppy.breed),
-            puppyLocation(puppy.address),
-            buttonRow
+            puppyLocation(puppy.about),
+            Container(
+              margin: const EdgeInsets.only(left: 16, bottom: 8,top: 16),
+              child: Text(
+                "About",
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+            ),
+            Container(
+                margin: const EdgeInsets.all(16),
+                width: 150,
+                child: Text(puppy.address)),
+            Expanded(
+              child: Container(
+                margin: EdgeInsets.all(16),
+                child: buttonRow,
+              ),
+            )
           ],
         ),
       ),
@@ -48,7 +69,7 @@ class PuppyDetails extends StatelessWidget {
     return Expanded(
       child: Container(
         margin: const EdgeInsets.all(16),
-        padding: const EdgeInsets.all(4),
+        padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
           border: Border.all(color: Colors.grey, width: 0.5),
           borderRadius: BorderRadius.all(
@@ -112,27 +133,64 @@ class PuppyDetails extends StatelessWidget {
     );
   }
 
-  Container buttonRow = Container(
-    margin: EdgeInsets.all(16),
-    child: Align(
-      alignment: Alignment.bottomLeft,
-      child: ElevatedButton(
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Image.asset(
-              'assets/images/dog_footprint.png',
-              height: 15,
-              width: 15,
+  Row buttonRow = Row(
+    crossAxisAlignment: CrossAxisAlignment.end,
+    mainAxisAlignment: MainAxisAlignment.end,
+    children: [
+      Expanded(
+        child: Container(
+          margin: EdgeInsets.all(8),
+          height: 60,
+          child: ElevatedButton(
+            style: ButtonStyle(
+              shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(18.0),
+                ),
+              ),
             ),
-            Text(
-              'Adopt me',
-              style: TextStyle(color: Colors.white),
+            onPressed: () {},
+            child: Align(
+              alignment: Alignment.center,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                //Center Row contents horizontally,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                //Center Row contents vertically,
+                children: [
+                  IconButton(
+                      icon: Image.asset(
+                        'assets/images/dog_footprint.png',
+                        color: Colors.white,
+                        height: 25,
+                      ),
+                      onPressed: () {}),
+                  Text(
+                    'Adopt',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(fontWeight: FontWeight.w500, fontSize: 20),
+                  )
+                ],
+              ),
             ),
-          ],
+          ),
         ),
-        onPressed: () {},
       ),
-    ),
+      Container(
+        height: 60,
+        margin: EdgeInsets.all(8),
+        child: ElevatedButton(
+          style: ButtonStyle(
+            shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+              RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(18.0),
+              ),
+            ),
+          ),
+          onPressed: () {},
+          child: Icon(Icons.call),
+        ),
+      )
+    ],
   );
 }
