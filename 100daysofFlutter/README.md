@@ -86,5 +86,20 @@ Note: Make sure if there is already cookbook for things like navigation,animatio
 * Image stretch.
 
 
+# Day 10
+
+  Since #Androiddevchallenge #1 both list and details page is completed and was able to mock design as much as possible.
+  Will start with #Androiddevchallenge #2.
+
+  Countdown timer app
+
+  Design [Countdown timer](https://collectui.com/designers/pltrk/countdown-timer)
+
+# Learnings
+
+* Stateful widget
+* Dart async Timer API
+* Completed MVP for Countdowntimer (Start/Stop)
+
 
 

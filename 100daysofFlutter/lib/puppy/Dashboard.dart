@@ -1,5 +1,5 @@
-import 'package:day2/Puppy.dart';
-import 'package:day2/PuppyDetails.dart';
+import 'package:day2/puppy/Puppy.dart';
+import 'package:day2/puppy/PuppyDetails.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

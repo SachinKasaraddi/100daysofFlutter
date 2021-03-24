@@ -1,6 +1,6 @@
 import 'dart:ui';
 import 'package:flutter/cupertino.dart';
-import 'package:day2/Puppy.dart';
+import 'package:day2/puppy/Puppy.dart';
 import 'package:flutter/material.dart';
 
 class PuppyDetails extends StatelessWidget {
