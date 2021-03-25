@@ -43,7 +43,7 @@ class PuppyDetails extends StatelessWidget {
             puppyNameAndBreed(puppy.name, puppy.breed),
             puppyLocation(puppy.about),
             Container(
-              margin: const EdgeInsets.only(left: 16, bottom: 8,top: 16),
+              margin: const EdgeInsets.only(left: 16, bottom: 8, top: 16),
               child: Text(
                 "About",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
