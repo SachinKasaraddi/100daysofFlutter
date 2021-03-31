@@ -101,5 +101,12 @@ Note: Make sure if there is already cookbook for things like navigation,animatio
 * Dart async Timer API
 * Completed MVP for Countdowntimer (Start/Stop)
 
+# Day 11
 
+    Trying to achieve the design as per the design.
+    Able to draw seconds line with ticker animation
+
+# Learnings
+
+* Ticker animation contoller, rotation animation.
 
