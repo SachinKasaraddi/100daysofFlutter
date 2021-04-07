@@ -110,3 +110,9 @@ Note: Make sure if there is already cookbook for things like navigation,animatio
 
 * Ticker animation contoller, rotation animation.
 
+# Day 14
+
+* Tweenbuilder animation,
+* CanvasPainter
+
+

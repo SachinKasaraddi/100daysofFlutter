@@ -20,22 +20,27 @@ class _CountDownTimerState extends State<CountDownTimer>
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.red,
-        body: Align(
-          alignment: Alignment.centerRight,
-          child: Container(
-            margin: EdgeInsets.only(top: 400),
-            width: 400,
-            height: 400,
-            child: Align(
-              alignment: Alignment.centerRight,
+    Expanded draggableWheel = Expanded(
+      child: Stack(
+        children: [
+          Container(
+            child: GestureDetector(
+              onTap: () => print("Test"),
               child: CustomPaint(
-                painter: MyPainter(context, 700, 20, DateTime.now()),
+                painter: MyPainter(context, 200, 20, DateTime.now()),
               ),
             ),
           ),
+        ],
+      ),
+    );
+
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.red,
+        body: Container(
+          alignment: Alignment.center,
+          child: draggableWheel,
         ),
       ),
     );
