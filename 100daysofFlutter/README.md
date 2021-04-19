@@ -115,4 +115,10 @@ Note: Make sure if there is already cookbook for things like navigation,animatio
 * Tweenbuilder animation,
 * CanvasPainter
 
+# Day 15
+
+* Learn networking
+* SOLID principles code standard
+* [Resources] (https://medium.com/swlh/how-to-do-networking-like-a-pro-in-flutter-7e2612103cb5 "Learning resource")
+
 
