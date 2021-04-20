@@ -3,12 +3,13 @@ import 'package:day2/countdowntimer/CountdownTimerView.dart';
 import 'package:day2/networking/NetworkApp.dart';
 import 'package:day2/networking/NetworkScreen.dart';
 import 'package:day2/puppy/Dashboard.dart';
+import 'package:day2/transferwise/TransferWiseApp.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(
     MaterialApp(
-      home: new NetworkScreen(),
+      home: new App(),
     ),
   );
 }
