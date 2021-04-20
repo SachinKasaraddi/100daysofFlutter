@@ -121,4 +121,9 @@ Note: Make sure if there is already cookbook for things like navigation,animatio
 * SOLID principles code standard
 * [Resources] (https://medium.com/swlh/how-to-do-networking-like-a-pro-in-flutter-7e2612103cb5 "Learning resource")
 
+# Day 16
+* Got API key for transferwise
+* Will integrate exchnage rate like transferwise
+* Completed navigation bottom bar
+* [Resources] (https://willowtreeapps.com/ideas/how-to-use-flutter-to-build-an-app-with-bottom-navigation "Learning resource")
 
