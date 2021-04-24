@@ -127,3 +127,10 @@ Note: Make sure if there is already cookbook for things like navigation,animatio
 * Completed navigation bottom bar
 * [Resources] (https://willowtreeapps.com/ideas/how-to-use-flutter-to-build-an-app-with-bottom-navigation "Learning resource")
 
+# Day 17
+* Built Crypto App (https://github.com/SachinKasaraddi/Crypto)
+* IDE started using VCcode
+* Learned debugging in Flutter.
+* Learning resource [https://www.youtube.com/watch?v=cPlaYS4eqe4]
+* API used [https://coinmarketcap.com/api/documentation/v1/#section/Quick-Start-Guide]
+*
