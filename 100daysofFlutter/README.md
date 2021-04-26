@@ -133,4 +133,9 @@ Note: Make sure if there is already cookbook for things like navigation,animatio
 * Learned debugging in Flutter.
 * Learning resource [https://www.youtube.com/watch?v=cPlaYS4eqe4]
 * API used [https://coinmarketcap.com/api/documentation/v1/#section/Quick-Start-Guide]
-*
+
+# Day 18
+* Built Eisenhower Matrix App (https://github.com/SachinKasaraddi/EisenjhowerMatrix)
+* SQLite in flutter
+* Working on EisenhowerMatrix Todo App.
+* CRUD operations are done and ready
